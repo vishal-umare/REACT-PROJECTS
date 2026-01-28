@@ -134,7 +134,7 @@ function Hero() {
                 <div
                   className={`text-sm text-left ${currentFloatingCard.contentColor}`}
                 >
-                  {currentFloatingCard.content}
+ 
                 </div>
               </div>
             </div>
