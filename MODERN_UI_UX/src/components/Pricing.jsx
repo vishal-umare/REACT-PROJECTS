@@ -92,12 +92,12 @@ function Pricing() {
               {plan.mostPopular && (
                 <div className="absolute -top-2 sm:-top-3 left-1/2 trasnform -translate-x-1/2  z-10 ">
                   <div className="flex items-center space-x-1 px-3 sm:px-4 py-1 sm:py-1.5 bg-gradient-to-b from-blue-500 to-cyan-500 rounded-full text-xs sm:text-sm font-semibold shadow-lg ">
-                    <Star className="w-3 h-3 h-3 sm:w-3 sm:h-3 fill-white " />
+                    <Star className="w-3 h-3 sm:w-3 sm:h-3 fill-white " />
                     <span>Most Popular</span>
                   </div>
                 </div>
               )}
-              <div className="text-center mb-6 sm:mb-8 ">
+              < div className="text-center mb-6 sm:mb-8 ">
                 <h3 className="text-xl sm:text-2xl font-bold mb-2 ">
                   {plan.name}
                 </h3>
